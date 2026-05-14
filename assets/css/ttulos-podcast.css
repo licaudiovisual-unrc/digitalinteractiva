@@ -1,0 +1,57 @@
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-spotify::before {
+  content: "\f666";
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+address, dl, fieldset, figure, ol, p, pre, ul {
+  margin: 0 0 20px 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+.fs-4 {
+  font-size: calc(1.275rem + .3vw)!important;
+}
+
+@media (min-width:1200px) {
+  .fs-4 {
+    font-size: 1.5rem!important;
+  }
+}
+
+address, dl, fieldset, figure, ol, p, pre, ul {
+  margin: 0 0 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span {
+  font-size: 12px;
+}
+
